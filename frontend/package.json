@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/index.ts",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "start": "npm run build && http-server dist -p 8000",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
